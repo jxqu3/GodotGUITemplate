@@ -1,0 +1,110 @@
+[gd_scene load_steps=4 format=3 uid="uid://dnlsggnxqlwcy"]
+
+[ext_resource type="Theme" uid="uid://d1tdumgq2nk72" path="res://Assets/theme.tres" id="1_8gbba"]
+[ext_resource type="FontFile" uid="uid://dc3m8u8lofrr3" path="res://Assets/Fonts/officecodepro-regular.otf" id="2_bo1nx"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_0xm2m"]
+font = ExtResource("2_bo1nx")
+font_size = 40
+outline_size = 1
+
+[node name="Root" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_8gbba")
+
+[node name="BackgroundColor" type="ColorRect" parent="."]
+z_index = -1
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0.12591085, 0.12591085, 0.12591082, 1)
+
+[node name="Demo" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+metadata/_edit_use_anchors_ = true
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Demo"]
+layout_mode = 2
+
+[node name="title" type="Label" parent="Demo/VBoxContainer"]
+layout_mode = 2
+text = "title"
+label_settings = SubResource("LabelSettings_0xm2m")
+
+[node name="label" type="Label" parent="Demo/VBoxContainer"]
+layout_mode = 2
+text = "label"
+
+[node name="TabBar" type="TabBar" parent="Demo/VBoxContainer"]
+layout_mode = 2
+current_tab = 0
+tab_count = 2
+tab_0/title = "test 1"
+tab_1/title = "test 2"
+
+[node name="Button" type="Button" parent="Demo/VBoxContainer"]
+layout_mode = 2
+action_mode = 0
+text = "button"
+
+[node name="TabContainer" type="TabContainer" parent="Demo/VBoxContainer"]
+custom_minimum_size = Vector2(0, 95.8)
+layout_mode = 2
+current_tab = 0
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Demo/VBoxContainer/TabContainer"]
+layout_mode = 2
+text = "This is the first tab"
+metadata/_tab_index = 0
+
+[node name="ColorPicker" type="ColorPicker" parent="Demo/VBoxContainer/TabContainer"]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 1
+
+[node name="GraphEdit" type="GraphEdit" parent="Demo/VBoxContainer/TabContainer"]
+visible = false
+custom_minimum_size = Vector2(0, 310.8)
+layout_mode = 2
+metadata/_tab_index = 2
+
+[node name="GraphNode" type="GraphNode" parent="Demo/VBoxContainer/TabContainer/GraphEdit"]
+layout_mode = 0
+offset_left = 115.0
+offset_top = 67.0
+offset_right = 272.0
+offset_bottom = 156.0
+mouse_filter = 1
+position_offset = Vector2(115, 67)
+title = "graph node :D"
+slot/0/left_enabled = false
+slot/0/left_type = 0
+slot/0/left_color = Color(1, 1, 1, 1)
+slot/0/left_icon = null
+slot/0/right_enabled = false
+slot/0/right_type = 0
+slot/0/right_color = Color(1, 1, 1, 1)
+slot/0/right_icon = null
+slot/0/draw_stylebox = true
+
+[node name="Button" type="Button" parent="Demo/VBoxContainer/TabContainer/GraphEdit/GraphNode"]
+layout_mode = 2
+text = "embedded"

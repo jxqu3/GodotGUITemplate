@@ -1,0 +1,165 @@
+[gd_resource type="Theme" load_steps=27 format=3 uid="uid://d1tdumgq2nk72"]
+
+[ext_resource type="StyleBox" uid="uid://eg5i6y0klmx7" path="res://Assets/Stylebox/disabled_stylebox.tres" id="1_7yyeo"]
+[ext_resource type="StyleBox" uid="uid://2uwmrmoaulrn" path="res://Assets/Stylebox/focus_stylebox.tres" id="2_w53sr"]
+[ext_resource type="StyleBox" uid="uid://pibq422acmoa" path="res://Assets/Stylebox/hover_stylebox.tres" id="3_0y7oa"]
+[ext_resource type="StyleBox" uid="uid://dnglh7t533y6j" path="res://Assets/Stylebox/normal_stylebox.tres" id="3_f5r8q"]
+[ext_resource type="StyleBox" uid="uid://csm628if85axx" path="res://Assets/Stylebox/Sliders/grabber_area.tres" id="5_13ufh"]
+[ext_resource type="StyleBox" uid="uid://cbggfv5efdsl7" path="res://Assets/Stylebox/pressed_texture_stylebox.tres" id="5_c73yj"]
+[ext_resource type="StyleBox" uid="uid://bycrm8ltmcetx" path="res://Assets/Stylebox/Tabs/tab_disabled.tres" id="5_crnkq"]
+[ext_resource type="StyleBox" uid="uid://c42fo65sthwte" path="res://Assets/Stylebox/Tabs/tab_selected.tres" id="5_w53sr"]
+[ext_resource type="StyleBox" uid="uid://brqqn5kkq5nbd" path="res://Assets/Stylebox/Tabs/tab_hover.tres" id="6_4goj0"]
+[ext_resource type="StyleBox" uid="uid://luckim64omhd" path="res://Assets/Stylebox/Sliders/grabber_area_hover.tres" id="6_c73yj"]
+[ext_resource type="StyleBox" uid="uid://0hyet1xka0v0" path="res://Assets/Stylebox/Tabs/tab_unselected.tres" id="6_f5r8q"]
+[ext_resource type="StyleBox" uid="uid://b1li2kcg7y8dr" path="res://Assets/Stylebox/Panels/hover.tres" id="6_p5cll"]
+[ext_resource type="StyleBox" uid="uid://cqnrx3d35wt18" path="res://Assets/Stylebox/Panels/panel.tres" id="7_urrlv"]
+[ext_resource type="StyleBox" uid="uid://kmys8me4ph0v" path="res://Assets/Stylebox/Panels/separator.tres" id="8_5rsk0"]
+[ext_resource type="StyleBox" uid="uid://ni417jx6jo1b" path="res://Assets/Stylebox/Panels/selected.tres" id="13_urrlv"]
+[ext_resource type="StyleBox" uid="uid://41imtr1776c3" path="res://Assets/Stylebox/Panels/focus_no_outline.tres" id="13_v4gqx"]
+[ext_resource type="StyleBox" uid="uid://d2ugvtltqifbs" path="res://Assets/Stylebox/Panels/focus_selected.tres" id="14_5rsk0"]
+[ext_resource type="StyleBox" uid="uid://5uj6ui4iimai" path="res://Assets/Stylebox/Panels/hovered_selected.tres" id="14_dv4i8"]
+[ext_resource type="StyleBox" uid="uid://bq06uqtw14r00" path="res://Assets/Stylebox/Panels/hovered_focus_selected.tres" id="15_6c1rt"]
+[ext_resource type="FontFile" uid="uid://dwah03p7n5twq" path="res://Assets/Fonts/Roboto[ital,wdth,wght].ttf" id="21_jjpr1"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jjpr1"]
+content_margin_left = 4.0
+content_margin_top = 4.0
+content_margin_right = 4.0
+content_margin_bottom = 4.0
+bg_color = Color(0.1, 0.1, 0.1, 0.6)
+border_width_left = 1
+border_width_right = 1
+border_width_bottom = 2
+border_color = Color(0, 0, 0, 1)
+border_blend = true
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_mqa8c"]
+content_margin_left = 4.0
+content_margin_top = 4.0
+content_margin_right = 4.0
+content_margin_bottom = 4.0
+bg_color = Color(0.1, 0.1, 0.1, 0.6)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 2
+border_color = Color(0, 0, 0, 1)
+border_blend = true
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_detail = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_13ufh"]
+bg_color = Color(0.11372549, 0.11372549, 0.11372549, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0, 0, 0, 1)
+expand_margin_top = 1.0
+expand_margin_bottom = 1.0
+anti_aliasing = false
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0ru1r"]
+content_margin_left = 4.0
+content_margin_top = 4.0
+content_margin_right = 4.0
+content_margin_bottom = 4.0
+bg_color = Color(1, 1, 1, 0.75)
+draw_center = false
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 5
+expand_margin_left = 2.0
+expand_margin_top = 2.0
+expand_margin_right = 2.0
+expand_margin_bottom = 2.0
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_t1uk1"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_c73yj"]
+bg_color = Color(0.11372549, 0.11372549, 0.11372549, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0, 0, 0, 1)
+expand_margin_left = 1.0
+expand_margin_right = 2.0
+
+[resource]
+default_font = ExtResource("21_jjpr1")
+default_font_size = 13
+Button/constants/outline_size = 1
+Button/styles/disabled = ExtResource("1_7yyeo")
+Button/styles/focus = ExtResource("2_w53sr")
+Button/styles/hover = ExtResource("3_0y7oa")
+Button/styles/normal = ExtResource("3_f5r8q")
+Button/styles/pressed = ExtResource("5_c73yj")
+CheckButton/styles/hover_pressed = ExtResource("3_0y7oa")
+CheckButton/styles/normal = ExtResource("3_f5r8q")
+CheckButton/styles/pressed = ExtResource("3_f5r8q")
+GraphNode/styles/panel = SubResource("StyleBoxFlat_jjpr1")
+GraphNode/styles/panel_focus = ExtResource("2_w53sr")
+GraphNode/styles/panel_selected = ExtResource("7_urrlv")
+GraphNode/styles/titlebar = SubResource("StyleBoxFlat_mqa8c")
+GraphNode/styles/titlebar_selected = ExtResource("15_6c1rt")
+HSlider/styles/grabber_area = ExtResource("5_13ufh")
+HSlider/styles/grabber_area_highlight = ExtResource("6_c73yj")
+HSlider/styles/slider = SubResource("StyleBoxFlat_13ufh")
+Label/colors/font_color = Color(1, 1, 1, 1)
+Label/colors/font_outline_color = Color(0, 0, 0, 1)
+Label/colors/font_shadow_color = Color(0, 0, 0, 0)
+Label/constants/line_spacing = 3
+Label/constants/outline_size = 1
+Label/constants/shadow_offset_x = 1
+Label/constants/shadow_offset_y = 1
+Label/constants/shadow_outline_size = 1
+Label/styles/focus = SubResource("StyleBoxFlat_0ru1r")
+Label/styles/normal = SubResource("StyleBoxEmpty_t1uk1")
+LineEdit/constants/outline_size = 1
+LineEdit/styles/focus = ExtResource("2_w53sr")
+LineEdit/styles/normal = ExtResource("3_f5r8q")
+LineEdit/styles/read_only = ExtResource("1_7yyeo")
+PopupMenu/styles/hover = ExtResource("6_p5cll")
+PopupMenu/styles/panel = ExtResource("7_urrlv")
+PopupMenu/styles/separator = ExtResource("8_5rsk0")
+TabBar/styles/tab_disabled = ExtResource("5_crnkq")
+TabBar/styles/tab_focus = ExtResource("2_w53sr")
+TabBar/styles/tab_hovered = ExtResource("6_4goj0")
+TabBar/styles/tab_selected = ExtResource("5_w53sr")
+TabBar/styles/tab_unselected = ExtResource("6_f5r8q")
+TabContainer/constants/outline_size = 1
+TabContainer/styles/panel = ExtResource("3_f5r8q")
+TabContainer/styles/tab_disabled = ExtResource("5_crnkq")
+TabContainer/styles/tab_focus = ExtResource("2_w53sr")
+TabContainer/styles/tab_hovered = ExtResource("6_4goj0")
+TabContainer/styles/tab_selected = ExtResource("5_w53sr")
+TabContainer/styles/tab_unselected = ExtResource("6_f5r8q")
+TextEdit/constants/outline_size = 1
+TextEdit/styles/focus = ExtResource("2_w53sr")
+TextEdit/styles/normal = ExtResource("3_f5r8q")
+TextEdit/styles/read_only = ExtResource("1_7yyeo")
+Tree/constants/outline_size = 1
+Tree/styles/button_hover = ExtResource("3_0y7oa")
+Tree/styles/button_pressed = ExtResource("3_f5r8q")
+Tree/styles/focus = ExtResource("13_v4gqx")
+Tree/styles/hovered = ExtResource("6_p5cll")
+Tree/styles/hovered_dimmed = ExtResource("13_urrlv")
+Tree/styles/hovered_selected = ExtResource("14_dv4i8")
+Tree/styles/hovered_selected_focus = ExtResource("15_6c1rt")
+Tree/styles/panel = ExtResource("7_urrlv")
+Tree/styles/selected = ExtResource("13_urrlv")
+Tree/styles/selected_focus = ExtResource("14_5rsk0")
+VSlider/styles/grabber_area = ExtResource("5_13ufh")
+VSlider/styles/grabber_area_highlight = ExtResource("6_c73yj")
+VSlider/styles/slider = SubResource("StyleBoxFlat_c73yj")
