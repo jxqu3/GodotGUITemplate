@@ -1,4 +1,4 @@
-[gd_resource type="Theme" load_steps=27 format=3 uid="uid://d1tdumgq2nk72"]
+[gd_resource type="Theme" load_steps=33 format=3 uid="uid://d1tdumgq2nk72"]
 
 [ext_resource type="StyleBox" uid="uid://eg5i6y0klmx7" path="res://Assets/Stylebox/disabled_stylebox.tres" id="1_7yyeo"]
 [ext_resource type="StyleBox" uid="uid://2uwmrmoaulrn" path="res://Assets/Stylebox/focus_stylebox.tres" id="2_w53sr"]
@@ -20,6 +20,19 @@
 [ext_resource type="StyleBox" uid="uid://5uj6ui4iimai" path="res://Assets/Stylebox/Panels/hovered_selected.tres" id="14_dv4i8"]
 [ext_resource type="StyleBox" uid="uid://bq06uqtw14r00" path="res://Assets/Stylebox/Panels/hovered_focus_selected.tres" id="15_6c1rt"]
 [ext_resource type="FontFile" uid="uid://dwah03p7n5twq" path="res://Assets/Fonts/Roboto[ital,wdth,wght].ttf" id="21_jjpr1"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_7ogq2"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7ogq2"]
+bg_color = Color(0.60038817, 0.60038817, 0.60038817, 0)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_jjpr1"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_mqa8c"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_c73yj"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_ljcvn"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jjpr1"]
 content_margin_left = 4.0
@@ -105,6 +118,14 @@ Button/styles/focus = ExtResource("2_w53sr")
 Button/styles/hover = ExtResource("3_0y7oa")
 Button/styles/normal = ExtResource("3_f5r8q")
 Button/styles/pressed = ExtResource("5_c73yj")
+CheckBox/icons/checked = null
+CheckBox/icons/unchecked = null
+CheckBox/styles/disabled = SubResource("StyleBoxEmpty_7ogq2")
+CheckBox/styles/focus = SubResource("StyleBoxFlat_7ogq2")
+CheckBox/styles/hover = SubResource("StyleBoxEmpty_jjpr1")
+CheckBox/styles/hover_pressed = SubResource("StyleBoxEmpty_mqa8c")
+CheckBox/styles/normal = SubResource("StyleBoxEmpty_c73yj")
+CheckBox/styles/pressed = SubResource("StyleBoxEmpty_ljcvn")
 CheckButton/styles/hover_pressed = ExtResource("3_0y7oa")
 CheckButton/styles/normal = ExtResource("3_f5r8q")
 CheckButton/styles/pressed = ExtResource("3_f5r8q")

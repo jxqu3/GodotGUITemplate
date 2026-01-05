@@ -70,10 +70,28 @@ custom_minimum_size = Vector2(0, 95.8)
 layout_mode = 2
 current_tab = 0
 
-[node name="RichTextLabel" type="RichTextLabel" parent="Demo/VBoxContainer/TabContainer"]
+[node name="Showcase" type="VBoxContainer" parent="Demo/VBoxContainer/TabContainer"]
+layout_mode = 2
+metadata/_tab_index = 0
+
+[node name="CheckBox" type="CheckBox" parent="Demo/VBoxContainer/TabContainer/Showcase"]
+layout_mode = 2
+text = "toggle me!"
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Demo/VBoxContainer/TabContainer/Showcase"]
 layout_mode = 2
 text = "This is the first tab"
-metadata/_tab_index = 0
+fit_content = true
+
+[node name="LineEdit" type="LineEdit" parent="Demo/VBoxContainer/TabContainer/Showcase"]
+layout_mode = 2
+placeholder_text = "I'm a LineEdit"
+
+[node name="TextEdit" type="TextEdit" parent="Demo/VBoxContainer/TabContainer/Showcase"]
+custom_minimum_size = Vector2(0, 108.2)
+layout_mode = 2
+text = "I'm a TextEdit"
+placeholder_text = "yahoooooo!"
 
 [node name="ColorPicker" type="ColorPicker" parent="Demo/VBoxContainer/TabContainer"]
 visible = false
