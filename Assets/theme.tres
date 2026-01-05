@@ -1,4 +1,4 @@
-[gd_resource type="Theme" load_steps=33 format=3 uid="uid://d1tdumgq2nk72"]
+[gd_resource type="Theme" load_steps=34 format=3 uid="uid://d1tdumgq2nk72"]
 
 [ext_resource type="StyleBox" uid="uid://eg5i6y0klmx7" path="res://Assets/Stylebox/disabled_stylebox.tres" id="1_7yyeo"]
 [ext_resource type="StyleBox" uid="uid://2uwmrmoaulrn" path="res://Assets/Stylebox/focus_stylebox.tres" id="2_w53sr"]
@@ -14,6 +14,7 @@
 [ext_resource type="StyleBox" uid="uid://b1li2kcg7y8dr" path="res://Assets/Stylebox/Panels/hover.tres" id="6_p5cll"]
 [ext_resource type="StyleBox" uid="uid://cqnrx3d35wt18" path="res://Assets/Stylebox/Panels/panel.tres" id="7_urrlv"]
 [ext_resource type="StyleBox" uid="uid://kmys8me4ph0v" path="res://Assets/Stylebox/Panels/separator.tres" id="8_5rsk0"]
+[ext_resource type="StyleBox" uid="uid://dfks4t8vxkj0h" path="res://Assets/Stylebox/inset_stylebox.tres" id="10_jjpr1"]
 [ext_resource type="StyleBox" uid="uid://ni417jx6jo1b" path="res://Assets/Stylebox/Panels/selected.tres" id="13_urrlv"]
 [ext_resource type="StyleBox" uid="uid://41imtr1776c3" path="res://Assets/Stylebox/Panels/focus_no_outline.tres" id="13_v4gqx"]
 [ext_resource type="StyleBox" uid="uid://d2ugvtltqifbs" path="res://Assets/Stylebox/Panels/focus_selected.tres" id="14_5rsk0"]
@@ -149,7 +150,7 @@ Label/styles/focus = SubResource("StyleBoxFlat_0ru1r")
 Label/styles/normal = SubResource("StyleBoxEmpty_t1uk1")
 LineEdit/constants/outline_size = 1
 LineEdit/styles/focus = ExtResource("2_w53sr")
-LineEdit/styles/normal = ExtResource("3_f5r8q")
+LineEdit/styles/normal = ExtResource("10_jjpr1")
 LineEdit/styles/read_only = ExtResource("1_7yyeo")
 PopupMenu/styles/hover = ExtResource("6_p5cll")
 PopupMenu/styles/panel = ExtResource("7_urrlv")
@@ -168,7 +169,7 @@ TabContainer/styles/tab_selected = ExtResource("5_w53sr")
 TabContainer/styles/tab_unselected = ExtResource("6_f5r8q")
 TextEdit/constants/outline_size = 1
 TextEdit/styles/focus = ExtResource("2_w53sr")
-TextEdit/styles/normal = ExtResource("3_f5r8q")
+TextEdit/styles/normal = ExtResource("10_jjpr1")
 TextEdit/styles/read_only = ExtResource("1_7yyeo")
 Tree/constants/outline_size = 1
 Tree/styles/button_hover = ExtResource("3_0y7oa")

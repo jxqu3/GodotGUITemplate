@@ -88,6 +88,7 @@ layout_mode = 2
 placeholder_text = "I'm a LineEdit"
 
 [node name="TextEdit" type="TextEdit" parent="Demo/VBoxContainer/TabContainer/Showcase"]
+clip_contents = false
 custom_minimum_size = Vector2(0, 108.2)
 layout_mode = 2
 text = "I'm a TextEdit"
