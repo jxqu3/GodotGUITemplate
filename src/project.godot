@@ -12,7 +12,7 @@ config_version=5
 
 config/name="yourapp"
 run/main_scene="uid://dnlsggnxqlwcy"
-config/features=PackedStringArray("4.5", "Forward Plus")
+config/features=PackedStringArray("4.5")
 run/low_processor_mode=true
 boot_splash/show_image=false
 boot_splash/fullsize=false
@@ -38,3 +38,4 @@ project/assembly_name="yourapp"
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
 textures/vram_compression/import_etc2_astc=true
+

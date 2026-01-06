@@ -1,5 +1,5 @@
 # Godot 4+ specific ignores
-.godot/
-/android/
-test.keystore
-bin/
+src/.godot/
+src/android/
+src/test.keystore
+src/bin/
